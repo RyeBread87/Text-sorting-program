@@ -1,0 +1,133 @@
+starting build
+
+**********************************************************************
+
+Test build
+build xv6 using make
+
+**********************************************************************
+Trying to clean project using make clean
+make clean
+make: *** No rule to make target `clean'.  Stop.
+Trying to build project using make
+make
+make: *** No targets specified and no makefile found.  Stop.
+
+
+test build FAILED
+ (build xv6 using make)
+ make failed (error 2)
+ required file 'xv6.img' does not exist after make
+ required file 'fs.img' does not exist after make
+
+starting procs1
+
+**********************************************************************
+
+Test procs1
+call getprocs() from a user program
+
+**********************************************************************
+Running xv6 user progam /u/c/s/cs537-1/ta/tests/1b/ctests/procs1.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+
+test procs1 FAILED (0 of 20)
+ (call getprocs() from a user program)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+starting procs2
+
+**********************************************************************
+
+Test procs2
+call fork() before getprocs()
+
+**********************************************************************
+Running xv6 user progam /u/c/s/cs537-1/ta/tests/1b/ctests/procs2.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+
+test procs2 FAILED (0 of 20)
+ (call fork() before getprocs())
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+starting procs3
+
+**********************************************************************
+
+Test procs3
+call getprocs() with a full process table
+
+**********************************************************************
+Running xv6 user progam /u/c/s/cs537-1/ta/tests/1b/ctests/procs3.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+
+test procs3 FAILED (0 of 20)
+ (call getprocs() with a full process table)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+starting procs4
+
+**********************************************************************
+
+Test procs4
+call getprocs() with a process table filled with zombies
+
+**********************************************************************
+Running xv6 user progam /u/c/s/cs537-1/ta/tests/1b/ctests/procs4.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+
+test procs4 FAILED (0 of 20)
+ (call getprocs() with a process table filled with zombies)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+starting procs5
+
+**********************************************************************
+
+Test procs5
+call getprocs() after some entries turn back to UNUSED
+
+**********************************************************************
+Running xv6 user progam /u/c/s/cs537-1/ta/tests/1b/ctests/procs5.c
+IOError: [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+
+test procs5 FAILED (0 of 20)
+ (call getprocs() after some entries turn back to UNUSED)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+**********************************************************************
+Summary:
+test build FAILED
+ (build xv6 using make)
+ make failed (error 2)
+ required file 'xv6.img' does not exist after make
+ required file 'fs.img' does not exist after make
+
+test procs1 FAILED (0 of 20)
+ (call getprocs() from a user program)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+test procs2 FAILED (0 of 20)
+ (call fork() before getprocs())
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+test procs3 FAILED (0 of 20)
+ (call getprocs() with a full process table)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+test procs4 FAILED (0 of 20)
+ (call getprocs() with a process table filled with zombies)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+test procs5 FAILED (0 of 20)
+ (call getprocs() after some entries turn back to UNUSED)
+ Unexpected exception [Errno 2] No such file or directory: '/tmp/tmpa4JtwR/p/user/tester.c'
+
+Passed 0 of 6 tests.
+Overall 0 of 6
+Points 0 of 100

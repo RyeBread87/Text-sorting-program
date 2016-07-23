@@ -1,0 +1,452 @@
+/afs/cs.wisc.edu/p/course/cs537-remzi/ta/tools
+starting build
+
+**********************************************************************
+
+Test build
+build project using make
+
+**********************************************************************
+Trying to clean project using make clean
+make clean
+make: *** No rule to make target `clean'.  Stop.
+Trying to build project using make
+make
+make: *** No targets specified and no makefile found.  Stop.
+Trying to build using gcc
+gcc -O -Wall -o fastsort fastsort.c -I/afs/cs.wisc.edu/p/course/cs537-remzi/ta/tests/1a-contest
+
+
+test build PASSED
+ (build project using make)
+
+starting contest
+
+**********************************************************************
+
+Test contest
+contest
+
+**********************************************************************
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/gen1 -s 0 -n 100000 -o /tmp/tmpZGnfss/p/infile
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 17.59811306 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 16.071491003 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.9138271809 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.8690071106 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 16.100427866 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.7523419857 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.7582128048 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.8035469055 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.822357893 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.7705171108 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/gen1 -s 1 -n 100000 -o /tmp/tmpZGnfss/p/infile
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.9008178711 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.8182070255 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.8813848495 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.7948980331 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.7725169659 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.8307068348 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 16.8657698631 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 16.7603721619 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.9727458954 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.7311859131 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/gen1 -s 2 -n 100000 -o /tmp/tmpZGnfss/p/infile
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.751224041 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 15.7084388733 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 16.1786959171 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 29.2838609219 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 17.6319379807 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 18.2209489346 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 16.5106351376 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 16.3752470016 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 17.9878320694 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 18.342851162 seconds
+Checking output
+best   15.7084388733
+median 15.907322526
+worst  29.2838609219
+
+
+
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/gen2 -s 0 -n 100000 -o /tmp/tmpZGnfss/p/infile
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.04757499695 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.03710007668 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.40653395653 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.99848794937 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.01719594002 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.02739691734 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.00475788116 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.99851799011 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.01101303101 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.00453090668 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/gen2 -s 1 -n 100000 -o /tmp/tmpZGnfss/p/infile
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.98527908325 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.97515201569 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.00381803513 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.00673699379 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.99404287338 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.97923398018 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.97499990463 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.9735519886 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.97499895096 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.97585511208 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/gen2 -s 2 -n 100000 -o /tmp/tmpZGnfss/p/infile
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.9805419445 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.15968704224 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.02127099037 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.08036494255 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.99415588379 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.0089571476 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.99576687813 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.99703001976 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.98703312874 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.01781916618 seconds
+Checking output
+best   2.9735519886
+median 3.00116801262
+worst  3.40653395653
+
+
+
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/gen3 -s 0 -n 100000 -o /tmp/tmpZGnfss/p/infile
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.94408392906 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.90985989571 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.92366099358 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.09417891502 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.97725892067 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.96242904663 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.96575307846 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.94816613197 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.91206598282 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.93199086189 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/gen3 -s 1 -n 100000 -o /tmp/tmpZGnfss/p/infile
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.9169819355 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.95182585716 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.96822500229 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.93907284737 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.93251085281 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.91570901871 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.92272591591 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.90845394135 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.98240590096 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.90716409683 seconds
+Checking output
+Generating input file
+/u/c/s/cs537-1/ta/tests/1a-contest/gen3 -s 2 -n 100000 -o /tmp/tmpZGnfss/p/infile
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.91163778305 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.95458602905 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.99038100243 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.99898791313 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.91002392769 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 2.92225694656 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.00150609016 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.04942202568 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.12742495537 seconds
+Checking output
+Running fastsort
+/tmp/tmpZGnfss/p/fastsort -1000 /tmp/tmpZGnfss/p/infile
+Fastsort completed in 3.05245709419 seconds
+Checking output
+best   2.90716409683
+median 2.94612503052
+worst  3.12742495537
+
+
+
+
+
+
+
+**********************************************************************
+Evaluation Summary: 
+The performance on three ranges: 
+[15.907322525978088, 3.0011680126190186, 2.9461250305175781] 
+
+Final result (average): 
+7.28487185637
+
+
+test contest PASSED
+ (contest)
+
+**********************************************************************
+Summary:
+test build PASSED
+ (build project using make)
+
+test contest PASSED
+ (contest)
+
+Passed 2 of 2 tests.
+Overall 2 of 2
